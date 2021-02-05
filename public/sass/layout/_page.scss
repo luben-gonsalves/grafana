@@ -49,6 +49,14 @@
   @include clearfix();
 }
 
+.page-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .page-full {
   margin-left: $page-sidebar-margin;
   padding-left: $spacer;
